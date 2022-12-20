@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0; /*сдвигает все элмементы на заданное количество px от границ элемента(body)*/
+
+    display: flex; /*Превращает элемент в flex-box сетку(сетка, которую можно выстраивать вертикально или горизнтольно)*/
+    flex-direction: column;/*Располагает всем элементы внутри body по центру*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.shapka {
+    background-color: #303030;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    height: 102px;
+}
+
+.buttons {
+    display: inline-flex;
+    color : #fff;
+    font-family: 'Oswald';
+    font-size: 25px;
+    grid-gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color : #fff;
+}
+
+.block1 {
+    background-color: #e8631c;
+}
+
+.image1 img {
+    width: 1903px;
+}
+
+.elements_fp {
+    position: absolute;
+    top: 550px;
+    margin-left: 50px;
+}
+
+.Title {
+    font-family: 'Oswald';
+    font-size: 80pt;
+}
+
+.text {
+    font-family: 'Montserrat';
+    width: 800px;
+    font-size: 30px;
+}
+
+.button {
+    margin-top: 50px ;
+    background-color: #e8631c;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.inbut {
+    font-family: 'Oswald';
+    font-size: 30px;
+}
+
+.block2 {
+    background-color: #e8631c;
+    width: 1903px;
+    padding-bottom: 100px;
+}
+
+.image_back {
+    background-image: url(images/Shape01.png);
+    height: inherit;
+    background-repeat: no-repeat;
+}
+
+.containerForContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title2 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    font-size: 70px;
+}
+
+.text2 {
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    font-size: 35px;
+    width: 1000px;
+    text-align: center;
+}
+
+.containerOfPic {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 50px
+}
+
+.card {
+    height: 500px;
+    width: 380px;
+    background-color: #303030;
+}
+
+.card img {
+    width: inherit;
+}
+
+.TitleInCard {
+    margin-top: 10px;
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 35px;
+}
+
+.TextInCard {
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 19px;
+}
